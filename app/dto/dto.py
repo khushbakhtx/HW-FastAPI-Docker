@@ -29,7 +29,7 @@ class ModelOutput(BaseModel):
     """
     Output schema for the heart disease classification model.
     """
-    prediction: int  # Binary prediction (0 = No Heart Disease, 1 = Heart Disease)
-    model_name: str  # Name or version of the model
+    prediction: int
+    model_name: str 
 
     model_config = ConfigDict(arbitrary_types_allowed=True)

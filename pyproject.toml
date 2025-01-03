@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "mlops-course"
+name = "mlops"
 version = "0.1.0"
-description = "MLOps dependencies"
-authors = ["Shuhrat Khalilbekov"]
+description = "dependencies"
+authors = ["..."]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.12.1"
+python = "3.12.6"
 pip = "24.2"
 requests = "2.28.2"
 numpy = "1.26.4"
@@ -25,11 +25,6 @@ fastapi = "0.104.0"
 scikit-learn = "^1.5.2"
 pyarrow = "^18.1.0"
 nbconvert = "^7.16.4"
-fire = "^0.7.0"
-mlflow = "^2.19.0"
-cryptography = "^44.0.0"
-chardet = "^5.2.0"
-cookiejar = "^0.0.3"
 
 [tool.poetry.dev-dependencies]
 isort = "5.3.2"
