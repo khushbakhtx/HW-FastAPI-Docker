@@ -26,9 +26,7 @@ class ModelInput(BaseModel):
 
 
 class ModelOutput(BaseModel):
-    """
-    Output schema for the heart disease classification model.
-    """
+    
     prediction: int
     model_name: str 
 

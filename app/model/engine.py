@@ -14,11 +14,11 @@ class Model:
 
     def _load_model(self) -> CatBoostClassifier:
 
-        if self.model is None:  # Only load the model if it is not already loaded
+        if self.model is None: 
             self.model = joblib.load(self.model_path)
 
     def infer(self, input_data: Union[pd.DataFrame, np.ndarray, List]) -> np.ndarray:
-        
+
         self._load_model()
         output = self.model.predict(input_data)
         return output
